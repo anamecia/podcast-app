@@ -1,0 +1,26 @@
+.HeaderContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: bisque;
+}
+
+.Header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  nav {
+    ul {
+      list-style: none;
+      text-transform: uppercase;
+      li {
+        padding: 0 30px;
+      }
+    }
+  }
+}
